@@ -4,3 +4,50 @@ Author : Mahide Hasan Anik, Thansi, Nidhu
 Version : v1.0
 */
 
+
+
+/* navbar design */
+.navbar{
+    background: #181818;
+    color: #fff;
+    padding: 20px 0px 20px 0px;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+/* slider */
+.slider {
+  background: linear-gradient(114deg, #165f26c4, #2aff5926),
+    url(../image/Office-Staff.png);
+  background-size: cover;
+  padding-top: 22px;
+  padding-bottom: 84px;
+}
+
+.slider h1 {
+  font-size: 78px;
+  color: #fff;
+  margin-bottom: 60px;
+  margin-top: 62px;
+}
+
+.btn-black{
+    padding: 15px;
+    background: #181818 !important;
+    color: #fff;
+    border-radius: 0px;
+    width: 188px;
+    transition: 0.5s ease-in-out;
+
+}
+.btn-black:hover{
+    background: #0c5727 !important;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+
+.color-green{
+    border-bottom: 5px solid #0c5727;
+}
