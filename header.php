@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/frontend/css/bootstrap.min.css">
     <!-- template css -->
     <link rel="stylesheet" href="assets/frontend/css/theme.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
 </head>
 <body>
     <!-- header navigation -->

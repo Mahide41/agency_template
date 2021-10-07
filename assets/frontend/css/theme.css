@@ -4,45 +4,41 @@ Author : Mahide Hasan Anik, Thansi, Nidhu
 Version : v1.0
 */
 
-
-
 /* Free consulitng */
-
-.consulting{
-  background: url(../image/back-pattern.png), linear-gradient(
-    45deg, #ededed, #e7e7e759);
-        background-size: cover;
-        background-repeat: repeat;
-        padding-top: 45px;
-        padding-bottom: 45px;
+.consulting {
+  background: url(../image/back-pattern.png),
+    linear-gradient(45deg, #ededed, #e7e7e759);
+  background-size: cover;
+  background-repeat: repeat;
+  padding-top: 45px;
+  padding-bottom: 45px;
 }
-.free-consulting{
+.free-consulting {
   padding-top: 5%;
   text-align: center;
   padding-bottom: 5%;
   line-height: 40px;
 }
 
-.free-consulting h2{
+.free-consulting h2 {
   font-size: 45px;
 }
 
-.free-consulting p{
+.free-consulting p {
   font-size: 25px;
   color: rgb(146, 146, 146);
 }
 /* Free consultancy end */
 
-
 /* navbar design */
-.navbar{
-    background: #181818;
-    color: #fff;
-    padding: 20px 0px 20px 0px;
+.navbar {
+  background: #181818;
+  color: #fff;
+  padding: 20px 0px 20px 0px;
 }
 
-.nav-link{
-    color: #fff;
+.nav-link {
+  color: #fff;
 }
 
 /* slider */
@@ -61,21 +57,84 @@ Version : v1.0
   margin-top: 62px;
 }
 
-.btn-black{
-    padding: 15px;
-    background: #181818 !important;
-    color: #fff;
-    border-radius: 0px;
-    width: 188px;
-    transition: 0.5s ease-in-out;
+.btn-black {
+  padding: 15px;
+  background: #181818 !important;
+  color: #fff;
+  border-radius: 0px;
+  width: 188px;
+  transition: 0.5s ease-in-out;
+}
+.btn-black:hover {
+  background: #0c5727 !important;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
 
-}
-.btn-black:hover{
-    background: #0c5727 !important;
-    color: #fff;
-    transition: 0.5s ease-in-out;
+.color-green {
+  border-bottom: 5px solid #0c5727;
 }
 
-.color-green{
-    border-bottom: 5px solid #0c5727;
+/* slider end */
+
+/* active team support start */
+.card{
+  border: 0px;
+  box-shadow: 2px 7px 25px #dddddd78;
+  text-align: center;
+  border-radius: 2px;
+} 
+.card-title{
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #282828 !important;
 }
+.card-text{
+  font-size: 18px;
+  padding-bottom: 8%;
+  color: rgb(129, 129, 129);
+}
+
+.card-img-top{
+  width: 100%;
+  height: 25vw;
+  object-fit: cover;
+}
+
+.support_team{
+  text-align: center;
+  padding: 5% 0% 5% 0%;
+}
+
+.support_team h3{
+  font-size: 45px;
+  margin-bottom: 5%;
+}
+.support_team h5{
+  color: rgb(255, 60, 0);
+}
+
+.social_icons{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  list-style: none;
+  top: -90px;
+}
+.social_icons li{
+  margin: 7px;
+}
+.social_icons li a{
+  display: block;
+  padding: 16px 20px 16px 20px;
+  border-radius: 500px;
+  background: #fff;
+  color: #b34983;
+  text-align: center;
+}
+.social_icons li a:hover{}
+
+/* end */
