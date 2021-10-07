@@ -4,17 +4,34 @@ Author : Mahide Hasan Anik, Thansi, Nidhu
 Version : v1.0
 */
 
-<<<<<<< HEAD
-.container{
-text-align: center;
 
+
+/* Free consulitng */
+
+.consulting{
+  background: url(../image/back-pattern.png), linear-gradient(
+    45deg, #ededed, #e7e7e759);
+        background-size: cover;
+        background-repeat: repeat;
+        padding-top: 45px;
+        padding-bottom: 45px;
 }
-.con-button{
-    background-color: black;
-    color: white;
-    border:0.16em solid;
-     margin:0 0.3em 0.3em 0;
-=======
+.free-consulting{
+  padding-top: 5%;
+  text-align: center;
+  padding-bottom: 5%;
+  line-height: 40px;
+}
+
+.free-consulting h2{
+  font-size: 45px;
+}
+
+.free-consulting p{
+  font-size: 25px;
+  color: rgb(146, 146, 146);
+}
+/* Free consultancy end */
 
 
 /* navbar design */
@@ -61,5 +78,4 @@ text-align: center;
 
 .color-green{
     border-bottom: 5px solid #0c5727;
->>>>>>> d4290fe90d759bd7e6578a0d306b301e2354a6cb
 }
